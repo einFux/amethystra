@@ -1,0 +1,4 @@
+name: EndEvent
+version: '1.0'
+main: de.einFux.amethystra.main
+api-version: '1.21'
