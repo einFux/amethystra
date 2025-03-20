@@ -1,4 +1,12 @@
 name: EndEvent
-version: '1.0'
+version: 1.0
 main: de.einFux.amethystra.main
-api-version: '1.21'
+api-version: 1.16
+commands:
+  event:
+    description: Startet das End-Event.
+    permission: endevent.admin
+permissions:
+  endevent.admin:
+    description: Erlaubt Admins, das End-Event zu starten.
+    default: op
