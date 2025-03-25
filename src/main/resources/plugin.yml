@@ -1,12 +1,16 @@
-name: EndEvent
-version: 1.0
-main: de.einFux.amethystra.main
-api-version: 1.16
+name: EndToggle
+version: 1.1
+main: de.einFux.amethystra.Main
+description: Plugin für End-Steuerung & Server-Restart
+author: einFux
 commands:
-  event:
+  toggleend:
+    description: Toggelt den Zugang zum End für Nicht-OPs.
+    usage: /toggleend
+    permission: op
+  serverrestart:
+    description: Startet den Server-Neustart mit Countdown.
+    permission: op
+  endeventstart:
     description: Startet das End-Event.
-    permission: endevent.admin
-permissions:
-  endevent.admin:
-    description: Erlaubt Admins, das End-Event zu starten.
-    default: op
+    permission: op
